@@ -5,8 +5,8 @@ aspect_ratio: [1, 1]
 
 background:
   image:
-    paths: [resources/background]
-    weights: [1]
+    paths: [/mnt/localdisk3/coco/train2017, /mnt/localdisk3/coco/unlabeled2017]
+    weights: [1, 1]
 
   effect:
     args:
@@ -32,7 +32,7 @@ document:
   content:
     margin: [0, 0.1]
     text:
-      path: resources/corpus/enwiki.txt
+      path: resources/corpus
     font:
       paths: [resources/font/en]
       weights: [1]
